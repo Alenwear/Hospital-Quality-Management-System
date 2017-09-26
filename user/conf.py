@@ -2,7 +2,7 @@ from appconf import AppConf
 from django.conf import settings
 
 
-class UsersAppConf(AppConf):
+class UserAppConf(AppConf):
     REGISTRATION_OPEN = True
     AUTO_LOGIN_ON_ACTIVATION = True
     AUTO_LOGIN_AFTER_REGISTRATION = False
